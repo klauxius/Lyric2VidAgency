@@ -1,0 +1,1 @@
+This is an AI agency that produces lyrics videos using several AI agents, each with specialized instructions and toolsets. This agency leverages vrsen's agency-swarm framework for agent orchistration.
