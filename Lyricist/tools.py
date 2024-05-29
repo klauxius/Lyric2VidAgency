@@ -3,10 +3,7 @@ from pydantic import Field
 import requests
 import time
 from urllib.parse import urlparse
-from selenium.common import WebDriverException
-from browsing.util.selenium import get_web_driver, set_web_driver
-from browsing.util import get_web_driver, set_web_driver, get_b64_screenshot
-from browsing.util.highlights import highlight_elements_with_labels, remove_highlight_and_labels
+
 from agency_swarm.util import get_openai_client
 from selenium.webdriver.common.by import By
 from typing import Literal
